@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen - Animaciones CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Sim<i class="fa-solid fa-globe"></i>n Vega</h2>
+        </div>
+        <div class="menu-desktop">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#quien-soy">Quién Soy</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-mobile">
+            <input class="check-menu" type="checkbox" name="menu-mobile" id="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="hero" id="hero">
+            <h2 class="bienvenidos">Bienvenidos a mi portafolio</h2>
+            <div class="btns-hero">
+                <a href="#quien-soy" class="btn-uno">¿Quién soy?</a>
+                <a href="#portafolio" class="btn-dos">Mi portafolio</a>
+            </div>
+        </section>
+    
+        <section class="quien-soy" id="quien-soy">
+            <div class="info">
+                <h3>Simón Vega</h3>
+                <p class="subtitulo">¿Quién soy?</p>
+                <hr>
+
+                <p class="informacion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, vel esse? Provident, ipsa autem vero excepturi architecto dicta consequuntur officiis sed! Adipisci iure assumenda a modi quam impedit, inventore libero?</p>
+                <p class="informacion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, vel esse? Provident, ipsa autem vero excepturi architecto dicta consequuntur officiis sed! Adipisci iure assumenda a modi quam impedit, inventore libero?</p>
+                <p class="informacion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, iste sint debitis odio ullam quia.</p>
+            </div>
+            <div class="imagen">
+                <img src="assets/img/imagen-siete.webp" alt="imagen quien soy">
+            </div>
+        </section>
+
+        <section class="galeria" id="portafolio">
+            <div class="encabezado">
+                <h3>Mi Portafolio</h3>
+                <p class="subtitulo">Te invito a algunos de mis poryectos</p>
+                <hr>
+            </div>
+
+            <div class="caja-imagen img1">
+                <img src="assets/img/imagen-uno.jpg" alt="Imagen 1">
+            </div>
+            <div class="caja-imagen img2">
+                <img src="assets/img/imagen-dos.webp" alt="Imagen 2">
+            </div>
+            <div class="caja-imagen img3">
+                <img src="assets/img/imagen-tres.webp" alt="Imagen 3">
+            </div>
+            <div class="caja-imagen img4">
+                <img src="assets/img/imagen-cuatro.webp" alt="Imagen 4">
+            </div>
+            <div class="caja-imagen img5">
+                <img src="assets/img/imagen-cinco.webp" alt="Imagen 5">
+            </div>
+            <div class="caja-imagen img6">
+                <img src="assets/img/imagen-seis.webp" alt="Imagen 6">
+            </div>
+            <div class="caja-imagen img7">
+                <img src="assets/img/imagen-siete.webp" alt="Imagen 7">
+            </div>
+            <div class="caja-imagen img8">
+                <img src="assets/img/imagen-ocho.webp" alt="Imagen 8">
+            </div>
+            <div class="caja-imagen img9">
+                <img src="assets/img/imagen-nueve.webp" alt="Imagen 9">
+            </div>
+        </section>
+    
+        <section class="contacto" id="contacto">
+            <div class="caja-formulario">
+                <h3>Contáctame</h3>
+                <p>¿Tienes dudas y necesitas una reunión?</p>
+                <hr>
+
+                <form action="">
+                    <input class="input" type="text" placeholder="Nombre">
+                    <input class="input" type="email" placeholder="Correo Electrónico">
+                    <input class="input" type="text" placeholder="Asunto">
+                    <input class="input" type="tel" name="telefono" id="telefono" placeholder="Número de contacto">
+                    
+                    <input class="enviar" type="submit" value="Solicitar reunión">
+                </form>
+            </div>
+            <div class="datos-contacto">
+                <div class="tel cajas-contacto">
+                    <i class="fa-solid fa-phone icono-contacto"></i>
+                    <p class="texto-contacto">+56 9 1598 1549</p>
+                </div>
+                <div class="correo cajas-contacto">
+                    <i class="fa-solid fa-envelope icono-contacto"></i>
+                    <p class="texto-contacto">simon@correo.cl</p>
+                </div>
+                <div class="lugar cajas-contacto">
+                    <i class="fa-solid fa-location-dot icono-contacto"></i>
+                    <p class="texto-contacto">Calle lugar 123, Comuna, País</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Simón Vega <br> (Trabajo de académico - Desafío Latam)</p>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/994c6b0b37.js" crossorigin="anonymous"></script>
+</body>
+</html>
